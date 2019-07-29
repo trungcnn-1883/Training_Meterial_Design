@@ -234,6 +234,37 @@ Khi được push hoặc bị đè lên, kích cỡ sẽ không thay đổi
 
 - Vị trí: vị trí component có thể thay đổi để phù hợp vs cỡ màn hình
 
+### e. Áp dụng mật độ
+
+### Áp dụng
+
+- Nguyên tắc mật độ: 
+
++ Khả năng quét: UI dày đặc cải thiện khả năng tìm kiếm và tương tác với lượng nội dung lớn 
+
++ Độ ưu tiên: UI dày đặc giúp người dùng tập trung bằng cách giảm khoảng cách giữa các hành động
+
++ Tính có sẵn: mật độ giúp hiển thị nhiều nội dung, hành động hơn trên màn hình
+
+- Thời điểm áp dụng: mật độ cao hơn, sẽ có nhiều thông tin hơn. List, bảng, form thường hay được áp dụng
+
+<img src="img/me30.png"/>
+
+<img src="img/me31.png"/>
+
+- Thời điểm ko áp dụng: 
+
+### Layout
+
+### Mục tiêu chạm và click
+
+Mục tiêu chạm nên là ít nhất 48 x 48 dp, vs ít nhất 8dp khoảng cách giữa các thành phần
+
+Một số trường hợp cần nhỏ hơn như link trong trong đoạn text, vùng chọn ngày ở date picker 
+
+
+
+
 
 
 
