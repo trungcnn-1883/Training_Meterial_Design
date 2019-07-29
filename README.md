@@ -56,7 +56,7 @@ Ngoài ra còn được áp dụng cho iOS, web
 
 Sẽ giúp việc tạo layout dạng lưới phù hợp với cỡ màn hình, hướng và đảm bảo tính nhất quán
 
-Gồm 3 thành phần: cột, rãnh và cách lề  (Columns, gutters, and margins)
+### Gồm 3 thành phần: cột, rãnh và cách lề  (Columns, gutters, and margins)
 
 <img src="img/me4.png"/>
 
@@ -67,6 +67,21 @@ Trên mobile, breakpoint = 360dp, có 4 cột
 <img src="img/me5.png"/>
 
 Trên table, breakpoint = 600dp, có 8 cột
+
+- Rãnh:
+
+<img src="img/me6.png"/>
+
+- Cách lề: 
+
+<img src="img/me7.png"/>
+
+### Căn chỉnh lưới
+
+<img src="img/t.gif"/>
+
+
+
 
 
 
