@@ -180,12 +180,59 @@ Có 2 loại vùng chứa: cố định và có thay đổi
 
 <img src="img/me22.png"/>
 
+- Để hiển thị ảnh thích hợp, xác định ảnh sẽ được cắt thế nào cho mỗi loại màn hình:
 
++ Giữ nguyên tỉ lệ
 
++ Thay đổi theo tùy loại màn hình
 
++ Giữ nguyên chiều cao, chiều rộng thay đổi
 
+### Vùng chạm --- xem thêm
 
+Vùng chạm nên ít nhất 48 x 48 dp, ít nhất 8dp khoảng cách giữa chúng
 
+Vùng click được nên ít nhất 24 x 24 dp, ít nhất 8dp khoảng cách giữa chúng
+
+### e. Hành vi thành phần 
+
+### Độ rộng của đối tượng
+
+Kích cỡ thành phần có thể thay đổi hoặc cố định trên các loại màn hình khác nhau.
+
+Không nên để kích thước quá nhỏ 
+
+<img src="img/me23.gif"/>
+
+Khi thay đổi kích cỡ màn hình, đối tượng có thể trở nên quá nổi bật ==> Không nên
+
+<img src="img/me24.gif"/>
+
+Khi được push hoặc bị đè lên, kích cỡ sẽ không thay đổi
+
+### Mô hình đáp ứng
+
+- Hiển thị: khi có thêm diện tích thì thành phần có thể được cho hiển thị lên màn hình
+
+<img src="img/me25.png"/>
+
+- Chuyển đổi: một thành phần có thể chuyển thành dạng khác khi cỡ màn hình thay đổi
+
+<img src="img/me26.png"/>
+
+<img src="img/me27.png"/>
+
+- Chia ra: có thể hiện thị toàn bộ nội dung một lần trên giao diện nếu có đủ diện tích
+
+<img src="img/me28.png"/>
+
+- Tái cấu trúc: khi có thêm diện tích, UI có thể thay đổi kiểu 
+
+<img src="img/me29.png"/>
+
+- Mở rộng: component có thể mở rộng để phù hợp vs cỡ màn hình
+
+- Vị trí: vị trí component có thể thay đổi để phù hợp vs cỡ màn hình
 
 
 
