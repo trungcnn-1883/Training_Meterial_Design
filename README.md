@@ -380,10 +380,12 @@ Có các loại như:
 
 - Loại đơn giản: tất cả đối tượng được áp dùng cùng 1 animation
 
-<video class="video-player__video animatable js-video-player js-video-load anim-appear" loop="" muted="" poster="https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F1DQ7tVUKYs3pHsoM1RPnpNp9XF0cWKG_r%2F01-simplesequencing.png" preload="metadata" tabindex="0">
-<source data-src="https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F17t9KO7HB9c0G8gu4NRoPufFG1wlrDm-A%2F01-simplesequencing.mp4" src="https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F17t9KO7HB9c0G8gu4NRoPufFG1wlrDm-A%2F01-simplesequencing.mp4" type="video/mp4"> </video>
+<video src="https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F17t9KO7HB9c0G8gu4NRoPufFG1wlrDm-A%2F01-simplesequencing.mp4" type="video/mp4"> </video>
 
 - Loại phức tạp: mỗi thành phần sẽ có 1 chuyển động riêng
+
+<video class="video-player__video animatable js-video-player js-video-load anim-appear" loop="" muted="" poster="https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F1DQ7tVUKYs3pHsoM1RPnpNp9XF0cWKG_r%2F01-simplesequencing.png" preload="metadata" tabindex="0">
+<source data-src="https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F17t9KO7HB9c0G8gu4NRoPufFG1wlrDm-A%2F01-simplesequencing.mp4" src="https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F17t9KO7HB9c0G8gu4NRoPufFG1wlrDm-A%2F01-simplesequencing.mp4" type="video/mp4"> </video>
 
 ###
 
