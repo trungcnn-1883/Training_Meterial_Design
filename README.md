@@ -18,7 +18,7 @@ Một số nguyên tắc thiết kế:
 
 - Image sẽ ở chế độ tràn. Tối thiểu khoảng cách giữa các ảnh cũng như khoảng cách giữa ảnh và cạnh màn hình sẽ cung cấp nội dung phong phú, tốt hơn cho người dùng
 
-- Chuyển động có ý nghĩa, gồm animation and sự chuyển đổi, sẽ giúp trải nghiệm tốt hơn, tạo sự thú vị
+- Chuyển động có ý nghĩa, gồm hiệu úng và sự chuyển đổi, sẽ giúp trải nghiệm tốt hơn, tạo sự thú vị
 
 Ngoài ra các thành phần như System status bar, toolbar, tab, button, list, ... cũng sẽ có những trải nghiệm tốt hơn, hợp mắt hơn
 
@@ -102,8 +102,10 @@ Không nên để margin quá lớn nếu không sẽ không có đủ không gi
 
 Là độ rộng của màn hình hiển thị. Vs mỗi độ rộng thì layout sẽ được chỉnh để phù hợp vs cỡ màn hình và hướng
 
-<video class="video-player__video animatable js-video-player js-video-load anim-appear" loop="" muted="" preload="metadata" tabindex="0">
-<source data-src="https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F1fsdEL9VNAeJaQjU-bdzLZnZ2IuoPEpYT%2Flayout-responsive-breakpoints.mp4" src="https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F1fsdEL9VNAeJaQjU-bdzLZnZ2IuoPEpYT%2Flayout-responsive-breakpoints.mp4" type="video/mp4"> </video>
+Link minh họa:
+
+https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F1fsdEL9VNAeJaQjU-bdzLZnZ2IuoPEpYT%2Flayout-responsive-breakpoints.mp4
+
 
 Bảng sau quy định mối quan hệ giữa breakpoint, cột, cách lề và rãnh
 
@@ -117,15 +119,13 @@ Layout được tạo nên từ nhiều vùng giao diện, như navigation, nộ
 
 Các cách để xây dựng:
 
-- Màn ngang/dọc: xây dựng file layout riêng cho màn ngang, dọc
-
-- Tablet/Mobile: xây dựng file layout riêng cho nó
+- Màn ngang/dọc, Tablet/Mobile: xây dựng file layout riêng cho màn ngang, dọc
 
 Các loại vùng:
 
-- Vùng dài hạn: có thể được hiển thị ở ngoài grid, ví dụ như navigation drawer, khi còn chỗ trống
+- Vùng dài hạn: có thể được hiển thị ở ngoài grid, ví dụ như navigation drawer
 
-- Vùng tạm thời: hiển thị theo mệnh lệnh bất cứ lúc nào, hoặc có thể lúc nào cũng hiển thị. Nó ảnh hưởng tới nội dung và lưới bên trong. Khả năng hiển thị của nó không bị ảnh hưởng khi tương tác vs các thành phần khác trên màn hình
+- Vùng Persistent: hiển thị theo mệnh lệnh bất cứ lúc nào, hoặc có thể lúc nào cũng hiển thị. Nó ảnh hưởng tới nội dung và lưới bên trong. Khả năng hiển thị của nó không bị ảnh hưởng khi tương tác vs các thành phần khác trên màn hình
 
 <img src="img/me13.gif"/>
 
@@ -164,7 +164,6 @@ Khi văn bản được căn giữa thì nó có thể đặt ở ngoài lưới
 
 <img src="img/me19.png"/>
 
-**increment**
 
 ### Vùng chứa và tỉ lệ cạnh
 
@@ -274,28 +273,20 @@ Một số trường hợp cần nhỏ hơn như link trong trong đoạn text, 
 
 - Phân tầng: giúp người dùng biết sự liên hệ giữa các thành phần 
 
-https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F1DenoCsHNb_H1S1zErzmGCxhz6wjmdO8y%2F01-hierarchy-parentchild.mp4
+Link minh họa:
 
-<video class="video-player__video animatable js-video-player js-video-load anim-appear" loop="" muted="" preload="metadata" tabindex="0">
-<source data-src="https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F1DenoCsHNb_H1S1zErzmGCxhz6wjmdO8y%2F01-hierarchy-parentchild.mp4" src="https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F1DenoCsHNb_H1S1zErzmGCxhz6wjmdO8y%2F01-hierarchy-parentchild.mp4" type="video/mp4"> </video>
+https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F1DenoCsHNb_H1S1zErzmGCxhz6wjmdO8y%2F01-hierarchy-parentchild.mp4
 
 
 https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F1Dd6n1D56cCcbtKEoM0gxP3OsMKotlTn2%2F01-hierarchy-menu.mp4
 
-<video class="video-player__video animatable js-video-player js-video-load anim-appear" loop="" muted="" poster="https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F1ZKXwFL36-WDI5DDV4Ldc2Ji_M9znaN8P%2F01-hierarchy-menu-pos.png" preload="metadata" tabindex="0">
-<source data-src="https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F1Dd6n1D56cCcbtKEoM0gxP3OsMKotlTn2%2F01-hierarchy-menu.mp4" src="https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F1Dd6n1D56cCcbtKEoM0gxP3OsMKotlTn2%2F01-hierarchy-menu.mp4" type="video/mp4"> </video>
-
 - Feedback và trạng thái: cung cấp feedback và trạng thái của hành động người dùng
+
+Link minh họa:
 
 https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F1G-MNFco8ApWpcnN5hkbiS2QnK1f1jW-Z%2F02-feedback-password.mp4
 
-<video class="video-player__video animatable js-video-player js-video-load anim-appear" loop="" muted="" poster="https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F1bYOPy6MGEJbAGaP5zg2tV_SGr6-4urHs%2F02-feedback-password-pos.png" preload="metadata" tabindex="0">
-<source data-src="https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F1G-MNFco8ApWpcnN5hkbiS2QnK1f1jW-Z%2F02-feedback-password.mp4" src="https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F1G-MNFco8ApWpcnN5hkbiS2QnK1f1jW-Z%2F02-feedback-password.mp4" type="video/mp4"> </video>
-
 https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F11YQJCcOncFpVNUXKmmTgvXb9MrlXt60c%2F02-feedback-touch.mp4
-
-<video class="video-player__video animatable js-video-player js-video-load anim-appear" loop="" muted="" preload="metadata" tabindex="0">
-<source data-src="https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F11YQJCcOncFpVNUXKmmTgvXb9MrlXt60c%2F02-feedback-touch.mp4" src="https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F11YQJCcOncFpVNUXKmmTgvXb9MrlXt60c%2F02-feedback-touch.mp4" type="video/mp4"> </video>
 
 Ngoài ra còn giúp chỉ dẫn người dùng, thêm hành động, sự hấp dẫn cho ứng dụng 
 
@@ -303,34 +294,31 @@ Ngoài ra còn giúp chỉ dẫn người dùng, thêm hành động, sự hấp
 
 Trong quá trình chuyển tiếp, các thành phần của UI sẽ biến đổi
 
+Link minh họa:
+
 https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F19k1nBx3oapA8GVx33GEVsbro6wFs91On%2F01-elementtype-topappbar.mp4
 
-<video class="video-player__video animatable js-video-player js-video-load anim-appear" loop="" muted="" poster="https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F1F95zx9Y2vIn5lBj4EynGXzivIoDAi4r_%2F01-elementtype-topappbar-pos.png" preload="metadata" tabindex="0">
-<source data-src="https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F19k1nBx3oapA8GVx33GEVsbro6wFs91On%2F01-elementtype-topappbar.mp4" src="https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F19k1nBx3oapA8GVx33GEVsbro6wFs91On%2F01-elementtype-topappbar.mp4" type="video/mp4"> </video>
 
 ### Thể hiện sự liên tục
 
 - Tweening: hiển thị sự liên tục của thay đổi thành phần theo thời gian, những thuộc tinh có khoảng giá trị trung gian thì mới áp dụng được
 
-https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F1RJ1TKFFa6qwYLHOlmSvCvBguYlHGSUiM%2F01-tweening.mp4
+Link minh họa:
 
-<video class="video-player__video animatable js-video-player js-video-load anim-appear" loop="" muted="" poster="https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F1lPR4mtc61Fs5SquJ0s9o-MTuQ4EjsGS0%2F01-tweening-pos.png" preload="metadata" tabindex="0">
-<source data-src="https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F1RJ1TKFFa6qwYLHOlmSvCvBguYlHGSUiM%2F01-tweening.mp4" src="https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F1RJ1TKFFa6qwYLHOlmSvCvBguYlHGSUiM%2F01-tweening.mp4" type="video/mp4"> </video>
+https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F1RJ1TKFFa6qwYLHOlmSvCvBguYlHGSUiM%2F01-tweening.mp4
 
 - Fading: sự biến đổi về độ mờ.
 
-https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F1n_Bt35iyIC-dk7L0BKw54OxDe6dbfrYV%2F02-dissolve.mp4
+Link minh họa:
 
-<video class="video-player__video animatable js-video-player js-video-load anim-appear" loop="" muted="" poster="https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F126DyBS5JrN5SnkX6hMGdINncfDQG9bkz%2F02-dissolve-pos.png" preload="metadata" tabindex="0">
-<source data-src="https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F1n_Bt35iyIC-dk7L0BKw54OxDe6dbfrYV%2F02-dissolve.mp4" src="https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F1n_Bt35iyIC-dk7L0BKw54OxDe6dbfrYV%2F02-dissolve.mp4" type="video/mp4"> </video>
+https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F1n_Bt35iyIC-dk7L0BKw54OxDe6dbfrYV%2F02-dissolve.mp4
 
 - Shared transformation: đồng bộ sự chuyển động của thành phần để cải thiện sự liên tục
 Shared element: Android 5.0
 
-https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F127msUeEph5wIZvXKwexUN4_YYp_HWf_W%2F03-cutonaction.mp4
+Link minh họa:
 
-<video class="video-player__video animatable js-video-player js-video-load anim-appear" loop="" muted="" poster="https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F1tqMwVu8m6G4Otzbh76VX2-sbWmGyBFfx%2F03-cutonaction-pos.png" preload="metadata" tabindex="0">
-<source data-src="https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F127msUeEph5wIZvXKwexUN4_YYp_HWf_W%2F03-cutonaction.mp4" src="https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F127msUeEph5wIZvXKwexUN4_YYp_HWf_W%2F03-cutonaction.mp4" type="video/mp4"> </video>
+https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F127msUeEph5wIZvXKwexUN4_YYp_HWf_W%2F03-cutonaction.mp4
 
 ### b. Tốc độ
 
@@ -346,24 +334,21 @@ Tốc độ phù hợp sẽ giúp người dùng hiểu về sự thay đổi tr
 
 Duration là 100ms
 
-https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F1JuV3ujUJaAZoPn8Y7KGemr8Zi846cMmY%2F01-iconssimple.mp4
+Link minh họa:
 
-<video class="video-player__video animatable js-video-player js-video-load anim-appear" loop="" muted="" poster="https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F1hgfHcRZytnILxl3U0h3LO3puFIEVQtZq%2F01-iconssimple.png" preload="metadata" tabindex="0">
-<source data-src="https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F1JuV3ujUJaAZoPn8Y7KGemr8Zi846cMmY%2F01-iconssimple.mp4" src="https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F1JuV3ujUJaAZoPn8Y7KGemr8Zi846cMmY%2F01-iconssimple.mp4" type="video/mp4"> </video>
+https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F1JuV3ujUJaAZoPn8Y7KGemr8Zi846cMmY%2F01-iconssimple.mp4
 
 + Phức tạp: cần 200, 300ms, ...
 
-https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F11blQMsxyud2-41e7tH_Ivg3aZ7wbB7mr%2F01-iconscomplex.mp4
+Link minh họa:
 
-<video class="video-player__video animatable js-video-player js-video-load anim-appear" loop="" muted="" poster="https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F1b2Y2HxlTcLoE1x-Xrl7Gan_GHIqKEjFP%2F01-iconscomplex.png" preload="metadata" tabindex="0">
-<source data-src="https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F11blQMsxyud2-41e7tH_Ivg3aZ7wbB7mr%2F01-iconscomplex.mp4" src="https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F11blQMsxyud2-41e7tH_Ivg3aZ7wbB7mr%2F01-iconscomplex.mp4" type="video/mp4"> </video>
+https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F11blQMsxyud2-41e7tH_Ivg3aZ7wbB7mr%2F01-iconscomplex.mp4
 
 - Thoát và đóng: thời gian cho việc đóng, ẩn đi, ... dùng thời gian ngắn, vì cần ít sự chú ý của người dùng hơn
 
 Mở nav drawer 250ms, đóng 200ms
 
-<video class="video-player__video animatable js-video-player js-video-load anim-appear" loop="" muted="" poster="https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F1DzlWg5TYVopbYQ9365NjBFoBgL6YXLr-%2F02-baseline-enterexit.png" preload="metadata" tabindex="0">
-<source data-src="https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F1-u7zPNV1Gi7X0eab2W7L15T3yBlAA3Ay%2F02-baseline-enterexit.mp4" src="https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F1-u7zPNV1Gi7X0eab2W7L15T3yBlAA3Ay%2F02-baseline-enterexit.mp4" type="video/mp4"> </video>
+Link minh họa:
 
 https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F1-u7zPNV1Gi7X0eab2W7L15T3yBlAA3Ay%2F02-baseline-enterexit.mp4
 
@@ -406,16 +391,15 @@ Có các loại như:
 
 - Loại đơn giản: tất cả đối tượng được áp dùng cùng 1 animation
 
-https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F17t9KO7HB9c0G8gu4NRoPufFG1wlrDm-A%2F01-simplesequencing.mp4
+Link minh họa:
 
-<video src="https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F17t9KO7HB9c0G8gu4NRoPufFG1wlrDm-A%2F01-simplesequencing.mp4" type="video/mp4"> </video>
+https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F17t9KO7HB9c0G8gu4NRoPufFG1wlrDm-A%2F01-simplesequencing.mp4
 
 - Loại phức tạp: mỗi thành phần sẽ có 1 chuyển động riêng
 
-https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F17t9KO7HB9c0G8gu4NRoPufFG1wlrDm-A%2F01-simplesequencing.mp4
+Link minh họa:
 
-<video class="video-player__video animatable js-video-player js-video-load anim-appear" loop="" muted="" poster="https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F1DQ7tVUKYs3pHsoM1RPnpNp9XF0cWKG_r%2F01-simplesequencing.png" preload="metadata" tabindex="0">
-<source data-src="https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F17t9KO7HB9c0G8gu4NRoPufFG1wlrDm-A%2F01-simplesequencing.mp4" src="https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F17t9KO7HB9c0G8gu4NRoPufFG1wlrDm-A%2F01-simplesequencing.mp4" type="video/mp4"> </video>
+https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F17t9KO7HB9c0G8gu4NRoPufFG1wlrDm-A%2F01-simplesequencing.mp4
 
 ###
 
