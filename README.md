@@ -240,15 +240,14 @@ Khi được push hoặc bị đè lên, kích cỡ sẽ không thay đổi
 
 <img src="img/me27.png"/>
 
-- Chia ra: có thể hiện thị toàn bộ nội dung một lần trên giao diện nếu có đủ diện tích
 
-<img src="img/me28.png"/>
+- Chia ra: có thể hiện thị toàn bộ nội dung một lần trên giao diện nếu có đủ diện tích
 
 - Tái cấu trúc: khi có thêm diện tích, UI có thể thay đổi kiểu 
 
-<img src="img/me29.png"/>
-
 - Mở rộng: component có thể mở rộng để phù hợp vs cỡ màn hình
+
+<img src="img/me35.png"/>
 
 - Vị trí: vị trí component có thể thay đổi để phù hợp vs cỡ màn hình
 
