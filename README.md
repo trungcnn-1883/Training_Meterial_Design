@@ -341,6 +341,8 @@ Mở nav drawer 250ms, đóng 200ms
 <video class="video-player__video animatable js-video-player js-video-load anim-appear" loop="" muted="" poster="https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F1DzlWg5TYVopbYQ9365NjBFoBgL6YXLr-%2F02-baseline-enterexit.png" preload="metadata" tabindex="0">
 <source data-src="https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F1-u7zPNV1Gi7X0eab2W7L15T3yBlAA3Ay%2F02-baseline-enterexit.mp4" src="https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F1-u7zPNV1Gi7X0eab2W7L15T3yBlAA3Ay%2F02-baseline-enterexit.mp4" type="video/mp4"> </video>
 
+https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F1-u7zPNV1Gi7X0eab2W7L15T3yBlAA3Ay%2F02-baseline-enterexit.mp4
+
 Ngoài ra còn theo phạm vị diện tích
 
 ### Easing
@@ -390,6 +392,8 @@ Có các loại như:
 ###
 
 ### d. Tự chỉnh hiệu ứng 
+
+Có thể chỉnh về tốc độ, sự chuyển động, tuần tự, hiệu ứng cho icon, hình minh họa, tối giản hiệu ứng đi
 
 https://material.io/design/motion/customization.html#customization-options
 
