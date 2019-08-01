@@ -124,7 +124,17 @@ Layout được tạo nên từ nhiều vùng giao diện, như navigation, nộ
 
 Các cách để xây dựng:
 
-- Màn ngang/dọc, Tablet/Mobile: xây dựng file layout riêng cho màn ngang, dọc
+<img src="img/me34.png"/>
+
+Phân loại theo: 
+
+- Cỡ màn hình: small, normal, large, xlarge
+
+- Độ phân giải: ldpi, mdpi, hdpi, xhdpi, xxhdpi 
+
+- Hướng màn hình: ngang, dọc
+
+
 
 Các loại vùng:
 
