@@ -32,6 +32,11 @@ Mọi kích cỡ (margin. width, height, ...) nên là bội của 8dp, những 
 
 <img src="img/me1.png"/>
 
+Điều này sẽ giúp việc hiển thị các đối tượng trở nên sắc nét, rõ ràng hơn
+
+https://spec.fm/static/img/specifics/001/fig-3.png
+
+
 ### b. Mật độ điểm ảnh
 
 - Số lượng điểm ảnh mà vừa trên 1 inch được gọi là **mật độ điểm ảnh**
