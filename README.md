@@ -48,7 +48,7 @@ Cùng một dp sẽ ra các width in pixel khác nhau, phụ thuộc vào densit
 
 <img src="img/me3.png"/>
 
-sp vs dp:
+Ngoài ra còn sp là chuyên cho văn bản
 
 Ngoài ra còn được áp dụng cho iOS, web
 
