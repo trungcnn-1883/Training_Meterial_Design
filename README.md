@@ -364,6 +364,17 @@ Link minh họa:
 
 https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F11blQMsxyud2-41e7tH_Ivg3aZ7wbB7mr%2F01-iconscomplex.mp4
 
+Sử dụng đối tượng: AnimationDrawable
+
+```
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true">
+    <item android:drawable="@drawable/rocket_thrust1" android:duration="200" />
+    <item android:drawable="@drawable/rocket_thrust2" android:duration="200" />
+    <item android:drawable="@drawable/rocket_thrust3" android:duration="200" />
+</animation-list>
+```
+
 - Thoát và đóng: thời gian cho việc đóng, ẩn đi, ... dùng thời gian ngắn, vì cần ít sự chú ý của người dùng hơn
 
 Mở nav drawer 250ms, đóng 200ms
