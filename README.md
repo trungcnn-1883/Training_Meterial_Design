@@ -321,11 +321,15 @@ Link minh họa:
 
 https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F1RJ1TKFFa6qwYLHOlmSvCvBguYlHGSUiM%2F01-tweening.mp4
 
+Code có thể sử dụng Transition, TransitionManager để xây dựng
+
 - Fading: sự biến đổi về độ mờ.
 
 Link minh họa:
 
 https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F1n_Bt35iyIC-dk7L0BKw54OxDe6dbfrYV%2F02-dissolve.mp4
+
+Code có thể sử dụng Transition, TransitionManager, transition-set, AnimationUtils để xây dựng
 
 - Shared transformation: đồng bộ sự chuyển động của thành phần để cải thiện sự liên tục
 Shared element: Android 5.0
@@ -333,6 +337,8 @@ Shared element: Android 5.0
 Link minh họa:
 
 https://storage.googleapis.com/spec-host/mio-staging%2Fmio-design%2F1563837804615%2Fassets%2F127msUeEph5wIZvXKwexUN4_YYp_HWf_W%2F03-cutonaction.mp4
+
+<img src="img/me36.gif" />
 
 ### b. Tốc độ
 
